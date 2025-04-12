@@ -14,7 +14,7 @@ const Home = async () => {
     <div className="border max-w-96 mx-auto mt-5 min-h-60">
       <App words={words} />
       <Link href="/add">
-        <Button>Přidej slovo</Button>
+        <Button className="mt-6 cursor-pointer">Přidej slovo</Button>
       </Link>
     </div>
   );

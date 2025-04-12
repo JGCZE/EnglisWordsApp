@@ -3,7 +3,7 @@ interface IProps {
 }
 
 const RandomWord = ({ word }: IProps) => {
-  return <div>{}</div>;
+  return <div className="text-blue-500 font-bold text-2xl">{word}</div>;
 };
 
 export default RandomWord;
