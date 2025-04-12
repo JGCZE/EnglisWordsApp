@@ -1,13 +1,9 @@
-import { TWords } from "@/types";
+interface IProps {
+  word: string;
+}
 
-const words: TWords = [
-  { id: 1, czechW: "ahoj", englishW: "hello" },
-  { id: 2, czechW: "pes", englishW: "dog" },
-  { id: 3, czechW: "kočka", englishW: "cat" },
-];
-
-const RandomWord = async () => {
-  return <div>RandomWord</div>;
+const RandomWord = ({ word }: IProps) => {
+  return <div>{}</div>;
 };
 
 export default RandomWord;
